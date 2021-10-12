@@ -1,0 +1,14 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center-row {
+  @extend .center;
+  flex-direction: row;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
