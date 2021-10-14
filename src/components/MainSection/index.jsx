@@ -33,6 +33,7 @@ const keypad = [
     { type: "equal", label: "=", value: "eql" },
   ],
 ];
+console.log("madhu");
 export default function Mainsection() {
   return (
     <section className="app--body">
